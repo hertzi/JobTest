@@ -1,0 +1,10 @@
+affinitas.iml
+.idea
+logs
+target
+/core/core.iml
+/core/logs
+/core/target
+/rest/rest.iml
+/rest/logs
+/rest/target
