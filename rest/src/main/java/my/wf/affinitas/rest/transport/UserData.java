@@ -3,6 +3,7 @@ package my.wf.affinitas.rest.transport;
 import my.wf.affinitas.core.model.User;
 
 public class UserData {
+
     private User user;
     private String name;
     private String email;
@@ -17,13 +18,6 @@ public class UserData {
         this.lastName = user.getLastName();
     }
 
-    public User getUser() {
-        return user;
-    }
-
-    public void setUser(User user) {
-        this.user = user;
-    }
 
     public String getName() {
         return name;
