@@ -1,5 +1,5 @@
-# AffinitasTest
-This project was created as a test task for application at Affinitas (Sr. Java Developer) (http://www.affinitas.de/) 
+# JobTest
+This project was created as a test task for application at Sr. Java Developer role
 
 The implementation
 
