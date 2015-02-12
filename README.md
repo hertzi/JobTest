@@ -34,8 +34,13 @@ Calls:
 
 	GET http://localhost:19080/users/list		- requires sessionid property in the request header, returns json list of all users
 	GET http://localhost:19080/users/favorites	- requires sessionid property in the request header, returns json list of favorites
-	POST http://localhost:19080/users/favorites	- requires sessionid property in the request header, returns json of added favorite user
+	PUT http://localhost:19080/users/favorites	- requires sessionid property in the request header, returns json of added favorite user
 
 	POST  http://localhost:19080/messages/send	- requires json message data and sessionid property in the request header, returns json of sent message
 	GET  http://localhost:19080/messages/sent	- requires sessionid property in the request header, returns json list of sent messages
 	GET  http://localhost:19080/messages/received	- requires sessionid property in the request header, returns json list of received messages
+
+Data exaples:
+	Login data: {"email":"john@doe.com", "password":"querty"}
+	register data:{"email":"john@doe.com", "name":"John", "lastName":"Doe", "password":"querty"}
+	send message: {	"recipientEmail":"john@doe.com", "subject":"subj1", "text": "text1"}
