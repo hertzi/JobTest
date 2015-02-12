@@ -1,18 +1,6 @@
 # AffinitasTest
 This project was created as a test task for application at Affinitas (Sr. Java Developer) (http://www.affinitas.de/) 
 
-The task description:
-Please create a small Restful Webservice for a mobile Dating App according to the following rules:
-1.) A Frontend is not needed
-2.) You should be able to
- -register a user (email / password)
- -log in a user (no security needed, just session handling)
- -see a list of all registered users
- -add other users as a „favorites"
- -write a message to a favorite user
-3.) You can use any data sink you want, e.g. an in-memory database
-4.) Add tests for the application
-
 The implementation
 
 Testing: 
