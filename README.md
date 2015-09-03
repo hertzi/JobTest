@@ -16,6 +16,7 @@ or from rest project dir:
 	mvn spring-boot:run
 
 Calls:
+
 	POST http://localhost:19080/login		- requires json data for login, returns session id in the request body.
 	POST http://localhost:19080/logout		- requires sessionid property in the request header, returns "Bye." in the request body.
 	POST http://localhost:19080/register
@@ -29,6 +30,7 @@ Calls:
 	GET  http://localhost:19080/messages/received	- requires sessionid property in the request header, returns json list of received messages
 
 Data exaples:
+
 	Login data: {"email":"john@doe.com", "password":"querty"}
 	register data:{"email":"john@doe.com", "name":"John", "lastName":"Doe", "password":"querty"}
 	send message: {	"recipientEmail":"john@doe.com", "subject":"subj1", "text": "text1"}
