@@ -1,6 +1,6 @@
 node {
     stage ('checkout'){
-        git 'https://github.com/hertzi/JobTest.git'
+        checkout scm
     }
     
     stage ('package'){
